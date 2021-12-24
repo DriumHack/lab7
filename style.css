@@ -1,0 +1,173 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------- */
+/*  тело документа                                                           */
+/* ------------------------------------------------------------------------- */
+
+body {
+    background: #fff;
+    font-family: Verdana, Arial;
+    font-size: 12px;
+    line-height: 20px;
+    color: #222;
+}
+
+
+
+/* 
+ *  основной контейнер                                                       
+ */
+#main {
+    margin: 20px auto;
+    width: 800px;
+}
+
+/*
+ *  стили для оформления контейнера заголовка сайта 
+ */ 
+#header {
+	height: 90px;
+	background: #2a79bc url(header.png) no-repeat;
+}
+
+#header h1 { 
+    font-size: 28px;
+    letter-spacing: -1px;
+    padding: 20px 0 0 20px;
+    color: #FF5500;
+}
+
+#header h1 a { 
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+    letter-spacing: -2px;
+}
+
+
+
+#header h1 a:hover {
+    color: #111;
+}
+
+#header h2 {
+    font-size: 19px;
+    color: #eee;
+    padding: 5px 0 0 20px;
+    letter-spacing: -1px;
+    font-weight: 100;
+}
+
+/*
+ * ссылки
+ */
+a {
+    text-decoration: none;
+    color: #4682B4;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2a52be;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/*  стили оформления  контейнера   данных                           */
+/* ------------------------------------------------------------------------- */
+#content {
+    padding: 0px 0 0 0px;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/*  стили оформления правого контейнера                             */
+/* ------------------------------------------------------------------------- */
+
+#right {
+    float: right;
+    width: 590px;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+
+
+#right h2 {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 15px 0 7px 0;
+}
+
+#right h2 a {
+	text-decoration: none;
+}
+
+#right h2 a:hover {
+
+}
+
+/* ------------------------------------------------------------------------- */
+/*  стили офордления левого контейнера (навигация )          */
+/* ------------------------------------------------------------------------- */
+
+#left {
+    float: left;
+    width: 180px;
+    padding-top: 10px;
+}
+
+#left h2 {
+    margin: 10px 0 0 0;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    background: #2a79bc url(menu.png) no-repeat;
+    color: #fff;
+    font-size: 13px;
+}
+
+
+#left ul {
+    padding: 10px 0 15px 10px;
+    list-style-type: square;
+    color: #2979BD;
+    padding-left: 30px;
+}
+
+#left ul li a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#left ul li a:hover {
+
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+/* футер страницы                                                                   */
+/* ------------------------------------------------------------------------- */
+#footer {
+    text-align: center;
+    font-size: 11px;
+    color: #0047ab;
+    margin-top: 20px;
+    border-top: 1px dotted #0047ab;
+}
+
+#footer a {
+    color: #0047ab; 
+}
+
